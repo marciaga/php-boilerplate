@@ -1,0 +1,16 @@
+{
+    "use": [
+        "autoprefixer",
+        "postcss-import",
+        "cssnano"
+    ],
+    "autoprefixer": {
+        "browsers": "> 5%"
+    },
+    "postcss-import": {
+        "path": ["./client/styles", "node_modules"]
+    },
+    "local-plugins": true,
+    "input": "client/styles/main.css",
+    "output": "public/css/main.css"
+}

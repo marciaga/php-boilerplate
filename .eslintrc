@@ -1,0 +1,44 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "curly": 2,
+        "comma-dangle": [2, "never"],
+        "comma-spacing": 2,
+        "eol-last": 2,
+        "eqeqeq": [2, "allow-null"],
+        "dot-location": [2, "property"],
+        "no-dupe-keys": 2,
+        "no-undef": 2,
+        "no-unused-expressions": 2,
+        "no-console": "off"
+    },
+    "ecmaFeatures": {
+        "arrowFunctions": 2,
+        "blockBindings": 2,
+        "modules": true,
+        "classes": true
+    },
+}

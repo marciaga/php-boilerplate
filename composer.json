@@ -1,0 +1,32 @@
+{
+    "name": "Basic PHP boilerplate",
+    "description": "A simple frameworkless PHP application with modern front-end infrastructure",
+    "keywords": ["php", "es6"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Arciaga",
+            "email": "mark.arciaga@gmail.com",
+            "role": "Creator/ Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "filp/whoops": ">=1.1.2",
+        "patricklouys/http": ">=1.1.0",
+        "nikic/fast-route": "^1.0",
+        "rdlowrey/auryn": "^1.4",
+        "windwalker/renderer": "2.*",
+        "illuminate/view": "5.*",
+        "codeception/codeception": "2.2.*",
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Arciaga\\": "src/"
+        },
+        "files": [
+            "src/Helpers.php"
+        ]
+    }
+}

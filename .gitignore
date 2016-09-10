@@ -1,0 +1,8 @@
+vendor
+node_modules
+*.log
+public/js
+public/css
+src/Template/cache
+.env
+tests/_output/*
